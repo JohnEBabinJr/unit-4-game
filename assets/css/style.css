@@ -16,7 +16,7 @@ margin: 10px;
     padding: 10px;
 }
 
-.rand{
+.randmain{
     color: white;
     background-color: green;
     padding: 5px;
@@ -34,12 +34,20 @@ margin: 10px;
     width: 100px;
     float: left;
 }
+
 .gembox{
     clear: both;
     margin: 10px;
     padding: 5px;
 }
-.total{
+
+.crystal{
+    border: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+    padding: 2px;
+}
+.totalmain{
     margin: 10px;
     padding: 5px;
     background-color: green;

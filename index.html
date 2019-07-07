@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -27,30 +28,39 @@
 
     </div>
 
-    <div class="rand">
-        Number to Match:
+    <div class="randmain">
+        Number to Match: 
+        <div class="rand"></div>
     </div>
 
     <div class="tally">
-        Wins:
+        <div class="winsmain">
+            Wins:
+            <div class="wins"></div>
+        </div>
         <br>
-        <br>
-        <br>
-        Losses:
+        <div class="lossesmain">
+            Losses: 
+            <div class="losses"></div>
+        </div>
 
     </div>
 
     <div class="gembox">
-        <img class="blue" src="assets/images/blue.jpg" width="75px" height="75px">
-        <img class="green" src="assets/images/green.jpg" width="75px" height="75px">
-        <img class="pruple" src="assets/images/purple.jpg" width="75px" height="75px">
-        <img class="red" src="assets/images/red.jpg" width="75px" height="75px">
+        <img class="blue crystal" src="assets/images/blue.jpg" width="75px" height="75px">
+        <img class="green crystal" src="assets/images/green.jpg" width="75px" height="75px">
+        <img class="purple crystal" src="assets/images/purple.jpg" width="75px" height="75px">
+        <img class="red crystal" src="assets/images/red.jpg" width="75px" height="75px">
     </div>
 
-    <div class="total">
+    <div class="totalmain">
         Total Score:
+        <div class="total"></div>
     </div>
 
+    <script src="assets/javascript/game.js">
+    resetgame();
+    </script>
 
 </body>
 </html>
